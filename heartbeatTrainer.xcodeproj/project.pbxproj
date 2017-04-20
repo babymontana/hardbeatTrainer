@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		872AE1FE1E91DEB300425841 /* NuevaRutinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872AE1FD1E91DEB300425841 /* NuevaRutinaViewController.swift */; };
+		87327B101E8D84ED00CB8A6B /* rutinasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87327B0F1E8D84ED00CB8A6B /* rutinasTableViewController.swift */; };
+		87327B121E8D86A200CB8A6B /* RutinasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87327B111E8D86A200CB8A6B /* RutinasTableViewCell.swift */; };
+		87327B141E8D86D200CB8A6B /* ProtocolRutina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87327B131E8D86D200CB8A6B /* ProtocolRutina.swift */; };
+		87327B161E8D871800CB8A6B /* rutina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87327B151E8D871800CB8A6B /* rutina.swift */; };
+		87327B181E8D873000CB8A6B /* rutinaCompleta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87327B171E8D873000CB8A6B /* rutinaCompleta.swift */; };
+		87B936D11E8D9D690033A1C1 /* RutinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B936D01E8D9D690033A1C1 /* RutinaViewController.swift */; };
+		87B936D31E8D9DB90033A1C1 /* rutinaCompletaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B936D21E8D9DB90033A1C1 /* rutinaCompletaViewController.swift */; };
+		87B936D51E8D9E320033A1C1 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B936D41E8D9E320033A1C1 /* Charts.framework */; };
+		87B936D71E8D9E690033A1C1 /* MBCircularProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B936D61E8D9E690033A1C1 /* MBCircularProgressBar.framework */; };
+		87B936D91E8DBBD20033A1C1 /* graficasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B936D81E8DBBD20033A1C1 /* graficasViewController.swift */; };
+		87B936DB1E8DC68E0033A1C1 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B936DA1E8DC68E0033A1C1 /* RealmSwift.framework */; };
+		87B936DD1E8DC6980033A1C1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B936DC1E8DC6980033A1C1 /* CoreData.framework */; };
+		87F1F08A1E8CDDB4005F998A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1F0891E8CDDB4005F998A /* AppDelegate.swift */; };
+		87F1F08F1E8CDDB4005F998A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F1F08D1E8CDDB4005F998A /* Main.storyboard */; };
+		87F1F0911E8CDDB4005F998A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F1F0901E8CDDB4005F998A /* Assets.xcassets */; };
+		87F1F0941E8CDDB4005F998A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F1F0921E8CDDB4005F998A /* LaunchScreen.storyboard */; };
+		87F1F09F1E8CDDB5005F998A /* heartbeatTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1F09E1E8CDDB5005F998A /* heartbeatTrainerTests.swift */; };
+		87F1F0AA1E8CDDB5005F998A /* heartbeatTrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1F0A91E8CDDB5005F998A /* heartbeatTrainerUITests.swift */; };
+		87F1F0B91E8CE60C005F998A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1F0B81E8CE60C005F998A /* LoginViewController.swift */; };
+		87F1F0BB1E8CE6F4005F998A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87F1F0BA1E8CE6F4005F998A /* GoogleService-Info.plist */; };
+		87F1F0BD1E8CEAFA005F998A /* UsuarioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1F0BC1E8CEAFA005F998A /* UsuarioTableViewCell.swift */; };
+		87F1F0C11E8CEBD1005F998A /* UsuariosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1F0C01E8CEBD1005F998A /* UsuariosTableViewController.swift */; };
+		87F1F0C41E8CEF4D005F998A /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1F0C31E8CEF4D005F998A /* Usuario.swift */; };
+		C253DB1C109A706B06DE4494 /* Pods_heartbeatTrainerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7B9F20E0E78B3565E17328 /* Pods_heartbeatTrainerUITests.framework */; };
+		DFCFEAF15F030303986497E3 /* Pods_heartbeatTrainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D43B6FD41FB712F102493A /* Pods_heartbeatTrainer.framework */; };
+		FE0981841CEB5C7D68D55BC0 /* Pods_heartbeatTrainerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFA54308489C29C856010A3 /* Pods_heartbeatTrainerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87F1F09B1E8CDDB5005F998A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F1F07E1E8CDDB2005F998A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F1F0851E8CDDB2005F998A;
+			remoteInfo = heartbeatTrainer;
+		};
+		87F1F0A61E8CDDB5005F998A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F1F07E1E8CDDB2005F998A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F1F0851E8CDDB2005F998A;
+			remoteInfo = heartbeatTrainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09AD9A542B50EF3A17DE79A5 /* Pods-heartbeatTrainer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-heartbeatTrainer.release.xcconfig"; path = "Pods/Target Support Files/Pods-heartbeatTrainer/Pods-heartbeatTrainer.release.xcconfig"; sourceTree = "<group>"; };
+		23FDBB1F789F40C972E4C051 /* Pods-heartbeatTrainerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-heartbeatTrainerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-heartbeatTrainerUITests/Pods-heartbeatTrainerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		872AE1FD1E91DEB300425841 /* NuevaRutinaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevaRutinaViewController.swift; sourceTree = "<group>"; };
+		87327B0F1E8D84ED00CB8A6B /* rutinasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rutinasTableViewController.swift; sourceTree = "<group>"; };
+		87327B111E8D86A200CB8A6B /* RutinasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutinasTableViewCell.swift; sourceTree = "<group>"; };
+		87327B131E8D86D200CB8A6B /* ProtocolRutina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolRutina.swift; sourceTree = "<group>"; };
+		87327B151E8D871800CB8A6B /* rutina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rutina.swift; sourceTree = "<group>"; };
+		87327B171E8D873000CB8A6B /* rutinaCompleta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rutinaCompleta.swift; sourceTree = "<group>"; };
+		87B936D01E8D9D690033A1C1 /* RutinaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutinaViewController.swift; sourceTree = "<group>"; };
+		87B936D21E8D9DB90033A1C1 /* rutinaCompletaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rutinaCompletaViewController.swift; sourceTree = "<group>"; };
+		87B936D41E8D9E320033A1C1 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "Pods/../build/Debug-iphoneos/Charts/Charts.framework"; sourceTree = "<group>"; };
+		87B936D61E8D9E690033A1C1 /* MBCircularProgressBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBCircularProgressBar.framework; path = "Pods/../build/Debug-iphoneos/MBCircularProgressBar/MBCircularProgressBar.framework"; sourceTree = "<group>"; };
+		87B936D81E8DBBD20033A1C1 /* graficasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = graficasViewController.swift; sourceTree = "<group>"; };
+		87B936DA1E8DC68E0033A1C1 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/heartbeatTrainer-gbcijhlttzvvhrcirtasjadmumfn/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
+		87B936DC1E8DC6980033A1C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		87F1F0861E8CDDB4005F998A /* heartbeatTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heartbeatTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F1F0891E8CDDB4005F998A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87F1F08E1E8CDDB4005F998A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87F1F0901E8CDDB4005F998A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87F1F0931E8CDDB4005F998A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87F1F0951E8CDDB5005F998A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F1F09A1E8CDDB5005F998A /* heartbeatTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heartbeatTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F1F09E1E8CDDB5005F998A /* heartbeatTrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartbeatTrainerTests.swift; sourceTree = "<group>"; };
+		87F1F0A01E8CDDB5005F998A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F1F0A51E8CDDB5005F998A /* heartbeatTrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heartbeatTrainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F1F0A91E8CDDB5005F998A /* heartbeatTrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartbeatTrainerUITests.swift; sourceTree = "<group>"; };
+		87F1F0AB1E8CDDB5005F998A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F1F0B81E8CE60C005F998A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		87F1F0BA1E8CE6F4005F998A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87F1F0BC1E8CEAFA005F998A /* UsuarioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioTableViewCell.swift; sourceTree = "<group>"; };
+		87F1F0C01E8CEBD1005F998A /* UsuariosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuariosTableViewController.swift; sourceTree = "<group>"; };
+		87F1F0C31E8CEF4D005F998A /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		88566B0C824FA1C6AF2EBE24 /* Pods-heartbeatTrainerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-heartbeatTrainerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-heartbeatTrainerUITests/Pods-heartbeatTrainerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91B923B6FD4335A93F90D1D6 /* Pods-heartbeatTrainerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-heartbeatTrainerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-heartbeatTrainerTests/Pods-heartbeatTrainerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6D259255EB2AAC0A06A45E0 /* Pods-heartbeatTrainerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-heartbeatTrainerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-heartbeatTrainerTests/Pods-heartbeatTrainerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1D43B6FD41FB712F102493A /* Pods_heartbeatTrainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_heartbeatTrainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E817A64579E0112A0B0A281A /* Pods-heartbeatTrainer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-heartbeatTrainer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-heartbeatTrainer/Pods-heartbeatTrainer.debug.xcconfig"; sourceTree = "<group>"; };
+		EA7B9F20E0E78B3565E17328 /* Pods_heartbeatTrainerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_heartbeatTrainerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFA54308489C29C856010A3 /* Pods_heartbeatTrainerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_heartbeatTrainerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87F1F0831E8CDDB2005F998A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B936DD1E8DC6980033A1C1 /* CoreData.framework in Frameworks */,
+				87B936DB1E8DC68E0033A1C1 /* RealmSwift.framework in Frameworks */,
+				87B936D71E8D9E690033A1C1 /* MBCircularProgressBar.framework in Frameworks */,
+				87B936D51E8D9E320033A1C1 /* Charts.framework in Frameworks */,
+				DFCFEAF15F030303986497E3 /* Pods_heartbeatTrainer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F1F0971E8CDDB5005F998A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0981841CEB5C7D68D55BC0 /* Pods_heartbeatTrainerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F1F0A21E8CDDB5005F998A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C253DB1C109A706B06DE4494 /* Pods_heartbeatTrainerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87F1F07D1E8CDDB2005F998A = {
+			isa = PBXGroup;
+			children = (
+				87F1F0881E8CDDB4005F998A /* heartbeatTrainer */,
+				87F1F09D1E8CDDB5005F998A /* heartbeatTrainerTests */,
+				87F1F0A81E8CDDB5005F998A /* heartbeatTrainerUITests */,
+				87F1F0871E8CDDB4005F998A /* Products */,
+				F2D21AF27107FD2E33778D40 /* Pods */,
+				9CDA1A07BFA1312E3BBAA0BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87F1F0871E8CDDB4005F998A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87F1F0861E8CDDB4005F998A /* heartbeatTrainer.app */,
+				87F1F09A1E8CDDB5005F998A /* heartbeatTrainerTests.xctest */,
+				87F1F0A51E8CDDB5005F998A /* heartbeatTrainerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87F1F0881E8CDDB4005F998A /* heartbeatTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				87F1F0C21E8CEF40005F998A /* classes */,
+				87F1F0BA1E8CE6F4005F998A /* GoogleService-Info.plist */,
+				87F1F0B71E8CE5F6005F998A /* controller */,
+				87F1F0891E8CDDB4005F998A /* AppDelegate.swift */,
+				87F1F08D1E8CDDB4005F998A /* Main.storyboard */,
+				87F1F0901E8CDDB4005F998A /* Assets.xcassets */,
+				87F1F0921E8CDDB4005F998A /* LaunchScreen.storyboard */,
+				87F1F0951E8CDDB5005F998A /* Info.plist */,
+			);
+			path = heartbeatTrainer;
+			sourceTree = "<group>";
+		};
+		87F1F09D1E8CDDB5005F998A /* heartbeatTrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				87F1F09E1E8CDDB5005F998A /* heartbeatTrainerTests.swift */,
+				87F1F0A01E8CDDB5005F998A /* Info.plist */,
+			);
+			path = heartbeatTrainerTests;
+			sourceTree = "<group>";
+		};
+		87F1F0A81E8CDDB5005F998A /* heartbeatTrainerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87F1F0A91E8CDDB5005F998A /* heartbeatTrainerUITests.swift */,
+				87F1F0AB1E8CDDB5005F998A /* Info.plist */,
+			);
+			path = heartbeatTrainerUITests;
+			sourceTree = "<group>";
+		};
+		87F1F0B71E8CE5F6005F998A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				87F1F0B81E8CE60C005F998A /* LoginViewController.swift */,
+				87F1F0BC1E8CEAFA005F998A /* UsuarioTableViewCell.swift */,
+				87F1F0C01E8CEBD1005F998A /* UsuariosTableViewController.swift */,
+				87327B0F1E8D84ED00CB8A6B /* rutinasTableViewController.swift */,
+				87327B111E8D86A200CB8A6B /* RutinasTableViewCell.swift */,
+				87B936D01E8D9D690033A1C1 /* RutinaViewController.swift */,
+				87B936D21E8D9DB90033A1C1 /* rutinaCompletaViewController.swift */,
+				87B936D81E8DBBD20033A1C1 /* graficasViewController.swift */,
+				872AE1FD1E91DEB300425841 /* NuevaRutinaViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		87F1F0C21E8CEF40005F998A /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				87F1F0C31E8CEF4D005F998A /* Usuario.swift */,
+				87327B171E8D873000CB8A6B /* rutinaCompleta.swift */,
+				87327B131E8D86D200CB8A6B /* ProtocolRutina.swift */,
+				87327B151E8D871800CB8A6B /* rutina.swift */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		9CDA1A07BFA1312E3BBAA0BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87B936DC1E8DC6980033A1C1 /* CoreData.framework */,
+				87B936DA1E8DC68E0033A1C1 /* RealmSwift.framework */,
+				87B936D61E8D9E690033A1C1 /* MBCircularProgressBar.framework */,
+				87B936D41E8D9E320033A1C1 /* Charts.framework */,
+				C1D43B6FD41FB712F102493A /* Pods_heartbeatTrainer.framework */,
+				FFFA54308489C29C856010A3 /* Pods_heartbeatTrainerTests.framework */,
+				EA7B9F20E0E78B3565E17328 /* Pods_heartbeatTrainerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2D21AF27107FD2E33778D40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E817A64579E0112A0B0A281A /* Pods-heartbeatTrainer.debug.xcconfig */,
+				09AD9A542B50EF3A17DE79A5 /* Pods-heartbeatTrainer.release.xcconfig */,
+				B6D259255EB2AAC0A06A45E0 /* Pods-heartbeatTrainerTests.debug.xcconfig */,
+				91B923B6FD4335A93F90D1D6 /* Pods-heartbeatTrainerTests.release.xcconfig */,
+				88566B0C824FA1C6AF2EBE24 /* Pods-heartbeatTrainerUITests.debug.xcconfig */,
+				23FDBB1F789F40C972E4C051 /* Pods-heartbeatTrainerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87F1F0851E8CDDB2005F998A /* heartbeatTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F1F0AE1E8CDDB5005F998A /* Build configuration list for PBXNativeTarget "heartbeatTrainer" */;
+			buildPhases = (
+				5B05FC3E6192AF885564CF19 /* [CP] Check Pods Manifest.lock */,
+				87F1F0821E8CDDB2005F998A /* Sources */,
+				87F1F0831E8CDDB2005F998A /* Frameworks */,
+				87F1F0841E8CDDB2005F998A /* Resources */,
+				BCDE6F50F00EB0B43E1D12EC /* [CP] Embed Pods Frameworks */,
+				EA438BD377DBCAE73E1A0491 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = heartbeatTrainer;
+			productName = heartbeatTrainer;
+			productReference = 87F1F0861E8CDDB4005F998A /* heartbeatTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87F1F0991E8CDDB5005F998A /* heartbeatTrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F1F0B11E8CDDB5005F998A /* Build configuration list for PBXNativeTarget "heartbeatTrainerTests" */;
+			buildPhases = (
+				A305D58A72236D7A2645A2C9 /* [CP] Check Pods Manifest.lock */,
+				87F1F0961E8CDDB5005F998A /* Sources */,
+				87F1F0971E8CDDB5005F998A /* Frameworks */,
+				87F1F0981E8CDDB5005F998A /* Resources */,
+				25BF197B3342902EAE86E295 /* [CP] Embed Pods Frameworks */,
+				5DC14486AA11079B7DC7900B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F1F09C1E8CDDB5005F998A /* PBXTargetDependency */,
+			);
+			name = heartbeatTrainerTests;
+			productName = heartbeatTrainerTests;
+			productReference = 87F1F09A1E8CDDB5005F998A /* heartbeatTrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87F1F0A41E8CDDB5005F998A /* heartbeatTrainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F1F0B41E8CDDB5005F998A /* Build configuration list for PBXNativeTarget "heartbeatTrainerUITests" */;
+			buildPhases = (
+				F7D5A58CF154A399588EA67F /* [CP] Check Pods Manifest.lock */,
+				87F1F0A11E8CDDB5005F998A /* Sources */,
+				87F1F0A21E8CDDB5005F998A /* Frameworks */,
+				87F1F0A31E8CDDB5005F998A /* Resources */,
+				63464DFAD748923E3415A667 /* [CP] Embed Pods Frameworks */,
+				267859AB112907E6B59BD5CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F1F0A71E8CDDB5005F998A /* PBXTargetDependency */,
+			);
+			name = heartbeatTrainerUITests;
+			productName = heartbeatTrainerUITests;
+			productReference = 87F1F0A51E8CDDB5005F998A /* heartbeatTrainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87F1F07E1E8CDDB2005F998A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = emmanuel;
+				TargetAttributes = {
+					87F1F0851E8CDDB2005F998A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M372P8QPCJ;
+						ProvisioningStyle = Automatic;
+					};
+					87F1F0991E8CDDB5005F998A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87F1F0851E8CDDB2005F998A;
+					};
+					87F1F0A41E8CDDB5005F998A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87F1F0851E8CDDB2005F998A;
+					};
+				};
+			};
+			buildConfigurationList = 87F1F0811E8CDDB2005F998A /* Build configuration list for PBXProject "heartbeatTrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87F1F07D1E8CDDB2005F998A;
+			productRefGroup = 87F1F0871E8CDDB4005F998A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87F1F0851E8CDDB2005F998A /* heartbeatTrainer */,
+				87F1F0991E8CDDB5005F998A /* heartbeatTrainerTests */,
+				87F1F0A41E8CDDB5005F998A /* heartbeatTrainerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87F1F0841E8CDDB2005F998A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F1F0941E8CDDB4005F998A /* LaunchScreen.storyboard in Resources */,
+				87F1F0BB1E8CE6F4005F998A /* GoogleService-Info.plist in Resources */,
+				87F1F0911E8CDDB4005F998A /* Assets.xcassets in Resources */,
+				87F1F08F1E8CDDB4005F998A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F1F0981E8CDDB5005F998A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F1F0A31E8CDDB5005F998A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25BF197B3342902EAE86E295 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-heartbeatTrainerTests/Pods-heartbeatTrainerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		267859AB112907E6B59BD5CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-heartbeatTrainerUITests/Pods-heartbeatTrainerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B05FC3E6192AF885564CF19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DC14486AA11079B7DC7900B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-heartbeatTrainerTests/Pods-heartbeatTrainerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63464DFAD748923E3415A667 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-heartbeatTrainerUITests/Pods-heartbeatTrainerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A305D58A72236D7A2645A2C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCDE6F50F00EB0B43E1D12EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-heartbeatTrainer/Pods-heartbeatTrainer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA438BD377DBCAE73E1A0491 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-heartbeatTrainer/Pods-heartbeatTrainer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D5A58CF154A399588EA67F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87F1F0821E8CDDB2005F998A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B936D31E8D9DB90033A1C1 /* rutinaCompletaViewController.swift in Sources */,
+				87327B161E8D871800CB8A6B /* rutina.swift in Sources */,
+				87327B101E8D84ED00CB8A6B /* rutinasTableViewController.swift in Sources */,
+				87F1F0B91E8CE60C005F998A /* LoginViewController.swift in Sources */,
+				87B936D91E8DBBD20033A1C1 /* graficasViewController.swift in Sources */,
+				872AE1FE1E91DEB300425841 /* NuevaRutinaViewController.swift in Sources */,
+				87F1F08A1E8CDDB4005F998A /* AppDelegate.swift in Sources */,
+				87F1F0C11E8CEBD1005F998A /* UsuariosTableViewController.swift in Sources */,
+				87327B181E8D873000CB8A6B /* rutinaCompleta.swift in Sources */,
+				87327B141E8D86D200CB8A6B /* ProtocolRutina.swift in Sources */,
+				87F1F0C41E8CEF4D005F998A /* Usuario.swift in Sources */,
+				87B936D11E8D9D690033A1C1 /* RutinaViewController.swift in Sources */,
+				87327B121E8D86A200CB8A6B /* RutinasTableViewCell.swift in Sources */,
+				87F1F0BD1E8CEAFA005F998A /* UsuarioTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F1F0961E8CDDB5005F998A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F1F09F1E8CDDB5005F998A /* heartbeatTrainerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F1F0A11E8CDDB5005F998A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F1F0AA1E8CDDB5005F998A /* heartbeatTrainerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87F1F09C1E8CDDB5005F998A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F1F0851E8CDDB2005F998A /* heartbeatTrainer */;
+			targetProxy = 87F1F09B1E8CDDB5005F998A /* PBXContainerItemProxy */;
+		};
+		87F1F0A71E8CDDB5005F998A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F1F0851E8CDDB2005F998A /* heartbeatTrainer */;
+			targetProxy = 87F1F0A61E8CDDB5005F998A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87F1F08D1E8CDDB4005F998A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F1F08E1E8CDDB4005F998A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87F1F0921E8CDDB4005F998A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F1F0931E8CDDB4005F998A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87F1F0AC1E8CDDB5005F998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87F1F0AD1E8CDDB5005F998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87F1F0AF1E8CDDB5005F998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E817A64579E0112A0B0A281A /* Pods-heartbeatTrainer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M372P8QPCJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Charts",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MBCircularProgressBar",
+				);
+				INFOPLIST_FILE = heartbeatTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.heartbeatTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87F1F0B01E8CDDB5005F998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09AD9A542B50EF3A17DE79A5 /* Pods-heartbeatTrainer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M372P8QPCJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Charts",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MBCircularProgressBar",
+				);
+				INFOPLIST_FILE = heartbeatTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.heartbeatTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		87F1F0B21E8CDDB5005F998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D259255EB2AAC0A06A45E0 /* Pods-heartbeatTrainerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = heartbeatTrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.heartbeatTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heartbeatTrainer.app/heartbeatTrainer";
+			};
+			name = Debug;
+		};
+		87F1F0B31E8CDDB5005F998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B923B6FD4335A93F90D1D6 /* Pods-heartbeatTrainerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = heartbeatTrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.heartbeatTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heartbeatTrainer.app/heartbeatTrainer";
+			};
+			name = Release;
+		};
+		87F1F0B51E8CDDB5005F998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88566B0C824FA1C6AF2EBE24 /* Pods-heartbeatTrainerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = heartbeatTrainerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.heartbeatTrainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = heartbeatTrainer;
+			};
+			name = Debug;
+		};
+		87F1F0B61E8CDDB5005F998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FDBB1F789F40C972E4C051 /* Pods-heartbeatTrainerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = heartbeatTrainerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.heartbeatTrainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = heartbeatTrainer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87F1F0811E8CDDB2005F998A /* Build configuration list for PBXProject "heartbeatTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F1F0AC1E8CDDB5005F998A /* Debug */,
+				87F1F0AD1E8CDDB5005F998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F1F0AE1E8CDDB5005F998A /* Build configuration list for PBXNativeTarget "heartbeatTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F1F0AF1E8CDDB5005F998A /* Debug */,
+				87F1F0B01E8CDDB5005F998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F1F0B11E8CDDB5005F998A /* Build configuration list for PBXNativeTarget "heartbeatTrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F1F0B21E8CDDB5005F998A /* Debug */,
+				87F1F0B31E8CDDB5005F998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F1F0B41E8CDDB5005F998A /* Build configuration list for PBXNativeTarget "heartbeatTrainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F1F0B51E8CDDB5005F998A /* Debug */,
+				87F1F0B61E8CDDB5005F998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87F1F07E1E8CDDB2005F998A /* Project object */;
+}
