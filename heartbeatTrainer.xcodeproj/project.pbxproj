@@ -20,6 +20,7 @@
 		87B936D91E8DBBD20033A1C1 /* graficasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B936D81E8DBBD20033A1C1 /* graficasViewController.swift */; };
 		87B936DB1E8DC68E0033A1C1 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B936DA1E8DC68E0033A1C1 /* RealmSwift.framework */; };
 		87B936DD1E8DC6980033A1C1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B936DC1E8DC6980033A1C1 /* CoreData.framework */; };
+		87E3F0E11EAC1EC000079292 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E3F0E01EAC1EC000079292 /* ChatViewController.swift */; };
 		87F1F08A1E8CDDB4005F998A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1F0891E8CDDB4005F998A /* AppDelegate.swift */; };
 		87F1F08F1E8CDDB4005F998A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F1F08D1E8CDDB4005F998A /* Main.storyboard */; };
 		87F1F0911E8CDDB4005F998A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F1F0901E8CDDB4005F998A /* Assets.xcassets */; };
@@ -69,6 +70,7 @@
 		87B936D81E8DBBD20033A1C1 /* graficasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = graficasViewController.swift; sourceTree = "<group>"; };
 		87B936DA1E8DC68E0033A1C1 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/heartbeatTrainer-gbcijhlttzvvhrcirtasjadmumfn/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
 		87B936DC1E8DC6980033A1C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		87E3F0E01EAC1EC000079292 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		87F1F0861E8CDDB4005F998A /* heartbeatTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heartbeatTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F1F0891E8CDDB4005F998A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87F1F08E1E8CDDB4005F998A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				87B936D21E8D9DB90033A1C1 /* rutinaCompletaViewController.swift */,
 				87B936D81E8DBBD20033A1C1 /* graficasViewController.swift */,
 				872AE1FD1E91DEB300425841 /* NuevaRutinaViewController.swift */,
+				87E3F0E01EAC1EC000079292 /* ChatViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -532,6 +535,7 @@
 				87F1F0C41E8CEF4D005F998A /* Usuario.swift in Sources */,
 				87B936D11E8D9D690033A1C1 /* RutinaViewController.swift in Sources */,
 				87327B121E8D86A200CB8A6B /* RutinasTableViewCell.swift in Sources */,
+				87E3F0E11EAC1EC000079292 /* ChatViewController.swift in Sources */,
 				87F1F0BD1E8CEAFA005F998A /* UsuarioTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

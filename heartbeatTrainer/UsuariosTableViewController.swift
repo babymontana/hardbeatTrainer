@@ -105,6 +105,8 @@ class UsuariosTableViewController: UITableViewController {
             let selectedUsuario = items[indexPath.row]
             nextScene.usuario = selectedUsuario 
         }
+       
+    
     }
 
 

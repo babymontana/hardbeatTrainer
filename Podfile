@@ -8,8 +8,10 @@ target 'heartbeatTrainer' do
    pod 'FirebaseAuth'
    pod 'FirebaseDatabase'
    pod 'MBCircularProgressBar'
+   pod 'Firebase/Storage'
    pod 'Charts/Realm'
    pod 'RealmSwift'
+   pod 'JSQMessagesViewController'
   # Pods for heartbeatTrainer
 
   target 'heartbeatTrainerTests' do

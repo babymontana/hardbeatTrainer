@@ -117,6 +117,14 @@ class rutinasTableViewController: UITableViewController {
             
             
         }
+        
+        if segue.identifier == "chatSegue" {
+            let nextScene = segue.destination as? ChatViewController
+            nextScene?.user = usuario
+            
+            
+        }
+
 
     }
 

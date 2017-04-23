@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FIRApp.configure()
-        let secondaryOptions = FIROptions.init(googleAppID: "1:23768527148:ios:726ec0f04bb4b32b", bundleID: "itesm.emmanuelPaez.hardbeat", gcmSenderID: "23768527148", apiKey: "AIzaSyAiTKNO7QSp6vG6xs1HgTx7pgmcRZPnCk4", clientID: "23768527148-i92f2brgmc9cpubb8912qefgahsvsn91.apps.googleusercontent.com", trackingID: nil, androidClientID: nil, databaseURL: "https://hartbeat-27d5b.firebaseio.com", storageBucket: "hartbeat-27d5b.appspot.com", deepLinkURLScheme: nil)
+        let secondaryOptions = FIROptions.init(googleAppID: "1:583298080257:ios:726ec0f04bb4b32b", bundleID: "itesm.emmanuelPaez.hardbeat", gcmSenderID: "583298080257", apiKey: "AIzaSyBBZgpgL_lzMxIBqdGTEbYuaZZDVSZTtds", clientID: "583298080257-pppg3tov1nv8jff3c5mrfq23lv4o07ed.apps.googleusercontent.com", trackingID: nil, androidClientID: nil, databaseURL: "https://examen-1474333334103.firebaseio.com", storageBucket: "examen-1474333334103.appspot.com", deepLinkURLScheme: nil)
         
         FIRApp.configure(withName: "secondary", options: secondaryOptions!)
         return true
